@@ -1,0 +1,11 @@
+[package]
+edition = "2021"
+version = "0.1.0"
+name = "rs_filecopy"
+
+[profile.release-lto]
+inherits = 'release'
+lto = true
+
+[dependencies]
+clap = "3.0.7"
